@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  filesurl: '/assets/'
+  filesurl: 'http://localhost:8080/'
 };

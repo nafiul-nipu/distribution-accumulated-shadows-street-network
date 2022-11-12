@@ -71,7 +71,7 @@ export class MapComponent implements AfterViewInit {
     });
 
     let source = new VectorSource({
-      url: environment.filesurl+'/network',
+      url: 'https://raw.githubusercontent.com/nafiul-nipu/distribution-accumulated-shadows-street-network/main/docs/'+environment.filesurl+'/network',
       format: new GeoJSON(),
     })
 
